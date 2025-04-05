@@ -1,26 +1,23 @@
 # cv https://github.com/Yana-Sokolova2502/cv/blob/Yana-Sokolova2502-patch-1/README.md
-# Cоколова Яна Сергеевна
+# Sokolova Yana Sergeevna
 ## +375290000000
-**Хочу заниматься программированием, так как мне это очень нравится**
-*Прошла курсы от Modsen по JS, в университете изучаю С++*
+**I want programming, because it's very interesting**
+* Learned of Modsen JS, in the university I learn С++*
 # Пример кода
-#include <iostream>
+*#include <iostream>
 #include <vector>
-#include <thread>
-#include <mutex>
-#include <random>
-#include <future>
-#include <algorithm>
-#include <chrono>
-#include <condition_variable>
-
-
+ #include <thread>
+ #include <mutex>
+ #include <random>
+ #include <future>
+ #include <algorithm>
+ #include <chrono>
+ #include <condition_variable>*
 struct Task {
     int id;
     std::vector<double> data;
     std::promise<double> result;
 };
-
 double processTask(const Task& task) {
     double sum = 0;
     for (double value : task.data) {
@@ -29,7 +26,6 @@ double processTask(const Task& task) {
     }
     return sum;
 }
-
 class ThreadPool {
 public:
     ThreadPool(int numThreads) : stop_(false) {
