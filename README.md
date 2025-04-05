@@ -1,4 +1,4 @@
-# cv 
+# cv https://github.com/Yana-Sokolova2502/cv/blob/Yana-Sokolova2502-patch-1/README.md
 # Cоколова Яна Сергеевна
 ## +375290000000
 **Хочу заниматься программированием, так как мне это очень нравится**
