@@ -1,10 +1,11 @@
-# cv https://github.com/Yana-Sokolova2502/cv/blob/Yana-Sokolova2502-patch-1/README.md
+# cv
+# https://github.com/Yana-Sokolova2502/cv/blob/Yana-Sokolova2502-patch-1/README.md
 # Sokolova Yana Sergeevna
 ## +375290000000
 **I want programming, because it's very interesting**
 * Learned of Modsen JS, in the university I learn С++*
 # Пример кода
-*#include <iostream>
+#include <iostream>
 #include <vector>
  #include <thread>
  #include <mutex>
